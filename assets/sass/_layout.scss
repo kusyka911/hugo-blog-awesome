@@ -123,19 +123,21 @@
 
   &_social-icons {
     a {
+      display: inline-block;
+      opacity: .7;
       text-decoration: none;
       margin-right: .31rem;
 
-    }
-    svg {
-      color: #888a90;
-      height: 24px;
-      width: 24px;
+      svg {
+        color: $blockquote-text;
+        height: 24px;
+        width: 24px;
+      }
+
       &:hover {
-        color: rgb(221, 221, 221);
+        opacity: 1;
       }
     }
-
   }
 }
 
